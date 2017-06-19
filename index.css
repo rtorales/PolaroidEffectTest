@@ -1,0 +1,27 @@
+body{
+    background-color: #EEE;
+}
+
+div.polaroid{
+    background-color : #FFF;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,.2);
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+div.polaroid:hover{
+    transform: rotate(-10deg) delay;
+}
+
+img{
+    filter: blur(10px);
+    filter: grayscale(100%);
+}
+
+img:hover{
+    filter: blur(0px);
+    filter: grayscale(0%);
+}
